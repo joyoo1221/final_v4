@@ -8,13 +8,15 @@ import Footer from "./Footer";
 import MainPage from "../routes/MainPage";
 import RecoPage from "../routes/RecoPage";
 import LikePage from "../routes/LikePage";
+import TestPage from "../routes/TestPage";
 
 const AppRouter = () => {
   return (
     <Router>
       <Header></Header>
       <Routes>
-        <Route path="/" element={<Login />}></Route>
+        <Route path="/" element={<TestPage />}></Route>
+        <Route path="/testPage" element={<TestPage />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/mainPage" element={<MainPage />}></Route>
         <Route path="/recoPage" element={<RecoPage />}></Route>

@@ -9,7 +9,7 @@ const MyPage = () => {
           className="hero_single inner_pages author_page jarallax"
           data-jarallax
         >
-          <img className="jarallax-img" src="img/hero_general.jpg" alt="" />
+          <img className="jarallax-img" src="img/hero_img.jpeg" alt="" />
           <div
             className="opacity-mask"
             data-opacity-mask="rgba(0, 0, 0, 0.4)"
@@ -47,11 +47,11 @@ const MyPage = () => {
                 </div>
                 <h1>user_id</h1>
                 <ul>
-                  <li>
-                    <Link to="/editProfile" className="active">
-                      <i className="bi bi-person"></i>Edit profile
-                    </Link>
-                  </li>
+                  {/*<li>*/}
+                  {/*  <Link to="/editProfile" className="active">*/}
+                  {/*    <i className="bi bi-person"></i>Edit profile*/}
+                  {/*  </Link>*/}
+                  {/*</li>*/}
                   <li>
                     <Link to="/myPage">
                       <i className="bi bi-gear"></i>Email address
@@ -72,7 +72,7 @@ const MyPage = () => {
                     <div className="author_thumb veryfied">
                       <figure className="ott_logo">
                         <img
-                          src="img/profile.svg"
+                          src="img/netflix_logo.jpeg"
                           alt=""
                           className="lazy"
                           width="100"
@@ -86,7 +86,7 @@ const MyPage = () => {
                     <div className="author_thumb veryfied">
                       <figure>
                         <img
-                          src="img/profile.svg"
+                          src="img/tving_logo.jpeg"
                           alt=""
                           className="lazy"
                           width="100"
@@ -100,7 +100,7 @@ const MyPage = () => {
                     <div className="author_thumb veryfied">
                       <figure>
                         <img
-                          src="img/profile.svg"
+                          src="img/wavve_logo.png"
                           alt=""
                           className="lazy"
                           width="100"
@@ -111,23 +111,23 @@ const MyPage = () => {
                     </div>
                   </div>
                 </div>
-                <ul>
-                  <li>
-                    <a href="author-edit-profile.html" className="active">
-                      <i className="bi bi-person"></i>Edit profile
-                    </a>
-                  </li>
-                  <li>
-                    <a href="account-settings.html">
-                      <i className="bi bi-gear"></i>Account settings
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#0">
-                      <i className="bi bi-box-arrow-right"></i>Log out
-                    </a>
-                  </li>
-                </ul>
+                {/*<ul>*/}
+                {/*  <li>*/}
+                {/*    <a href="author-edit-profile.html" className="active">*/}
+                {/*      <i className="bi bi-person"></i>Edit profile*/}
+                {/*    </a>*/}
+                {/*  </li>*/}
+                {/*  <li>*/}
+                {/*    <a href="account-settings.html">*/}
+                {/*      <i className="bi bi-gear"></i>Account settings*/}
+                {/*    </a>*/}
+                {/*  </li>*/}
+                {/*  <li>*/}
+                {/*    <a href="#0">*/}
+                {/*      <i className="bi bi-box-arrow-right"></i>Log out*/}
+                {/*    </a>*/}
+                {/*  </li>*/}
+                {/*</ul>*/}
               </div>
               {/*/row*/}
             </div>

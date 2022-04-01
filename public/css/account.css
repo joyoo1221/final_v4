@@ -24,7 +24,7 @@
 #login figure,
 #register figure {
   text-align: center;
-  padding: 15px 60px 30px 60px;
+  padding: 150px 60px 180px 60px;
   margin-bottom: 0;
 }
 @media (max-width: 767px) {
@@ -80,7 +80,7 @@ a.social_bt {
   -ms-border-radius: 3px;
   border-radius: 3px;
   text-align: center;
-  color: #fff;
+  color: #191919;
   min-width: 200px;
   margin-bottom: 5px;
   display: block;
@@ -99,8 +99,13 @@ a.social_bt:hover {
   filter: brightness(115%);
 }
 
-a.social_bt.facebook {
-  background: #3B5998 url(../img/Facebook__logo.svg) 10px center no-repeat;
+img.kakao_logo{
+  width: 20px;
+  height: 20px;
+}
+
+a.social_bt.kakao {
+  background: #FEE500;
 }
 
 a.social_bt.google {
