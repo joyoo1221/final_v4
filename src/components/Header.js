@@ -30,19 +30,19 @@ const Header = () => {
           {/*    <li><a href="login.html" className="btn_access">Log In</a></li>*/}
           {/*</ul>*/}
           {/*/top_menu*/}
-          <a href="#0" className="open_close">
+          <Link to="#0" className="open_close">
             <i className="bi bi-list" />
             <span>Menu</span>
-          </a>
+          </Link>
           <nav className="main-menu">
             <div id="header_menu">
-              <a href="#0" className="open_close">
+              <Link to="#0" className="open_close">
                 <i className="bi bi-x" />
-              </a>
-              <a href="index.html" className="logo_menu">
+              </Link>
+              <Link to="index.html" className="logo_menu">
                 <img
                   src="img/logo-placeholder.png"
-                  data-src="img/logo.svg"
+                  // data-src="img/logo.svg"
                   alt=""
                   width="120"
                   height="30"
@@ -50,13 +50,13 @@ const Header = () => {
                 />
                 <img
                   src="img/logo-placeholder.png"
-                  data-src="img/logo-light-mode.svg"
+                  // data-src="img/logo-light-mode.svg"
                   alt=""
                   width="120"
                   height="30"
                   className="light lazy"
                 />
-              </a>
+              </Link>
             </div>
             <ul>
               <li className="submenu">

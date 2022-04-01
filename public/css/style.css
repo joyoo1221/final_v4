@@ -107,6 +107,12 @@ Author URI: http://themeforest.net/user/Ansonika/
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+/*.ott_name{*/
+/*  margin-top: 30px;*/
+/*}*/
+
+
 .bi-alarm-fill::before {
   content: "\f101";
 }
@@ -3061,14 +3067,18 @@ Author URI: http://themeforest.net/user/Ansonika/
 
 .bi-gear-wide-connected::before {
   content: "\f3e3";
+
 }
 
 .bi-gear-wide::before {
   content: "\f3e4";
+
 }
 
 .bi-gear::before {
   content: "\f3e5";
+  padding-bottom: 9px;
+
 }
 
 .bi-gem::before {
@@ -5705,12 +5715,19 @@ html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@font-face {
+  font-family: 'KoPubDotumMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/KoPubDotumMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   background-color: var(--body-background);
   font-size: 14px;
   font-size: 0.875rem;
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
+  font-family: 'KoPubDotumMedium';
   color: var(--body-text-color);
 }
 
@@ -5725,7 +5742,7 @@ h6 {
 }
 
 p {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 strong {

@@ -107,9 +107,14 @@ const MyPage = () => {
                           height="100"
                         />
                       </figure>
-                      <h1>Wavve</h1>
+                      <p className="ott_name">Wavve</p>
                     </div>
                   </div>
+                  <p className="text-end mt-4">
+                    <Link to="/editProfile" className="btn_1">
+                      Edit Profile
+                    </Link>
+                  </p>
                 </div>
                 {/*<ul>*/}
                 {/*  <li>*/}
@@ -133,16 +138,16 @@ const MyPage = () => {
             </div>
           </div>
           {/*/row*/}
-          <div className="row">
-            <div className="col-lg-12">
-              <hr className="mt-3 mb-5"></hr>
-              <p className="text-end mt-4">
-                <Link to="/editProfile" className="btn_1">
-                  Edit Profile
-                </Link>
-              </p>
-            </div>
-          </div>
+          {/*<div className="row">*/}
+          {/*  <div className="col-lg-12">*/}
+          {/*    <hr className="mt-3 mb-5"></hr>*/}
+          {/*    <p className="text-end mt-4">*/}
+          {/*      <Link to="/editProfile" className="btn_1">*/}
+          {/*        Edit Profile*/}
+          {/*      </Link>*/}
+          {/*    </p>*/}
+          {/*  </div>*/}
+          {/*</div>*/}
         </div>
         {/*/container*/}
       </main>
