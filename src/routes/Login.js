@@ -15,43 +15,27 @@ const Login = () => {
                 height="35"
                 className="dark"
               />
-              {/*<img*/}
-              {/*  src="img/logo-light-mode.svg"*/}
-              {/*  alt=""*/}
-              {/*  width="140"*/}
-              {/*  height="35"*/}
-              {/*  className="light"*/}
-              {/*/>*/}
             </Link>
           </figure>
 
           <form>
             <Link to="#0" className="social_bt kakao">
-              {/*<div>*/}
-              {/*  <img className="kakao_logo" src="img/KakaoTalk_logo.png" />{" "}*/}
-              {/*</div>*/}
               <div className="access_social">
                 <img
                   className="kakao_logo col-2"
                   src="img/KakaoTalk_logo.png"
                 />{" "}
                 Start with Kakao
-                {/*<a href="#0" className="social_bt google">*/}
-                {/*  Login with Google*/}
-                {/*</a>*/}
               </div>
             </Link>
-            {/*<Link to="#0" className="btn_1 full-width">*/}
-            {/*  Login*/}
-            {/*</Link>*/}
             <div className="text-center add_top_10">
-              New to OTT?{" "}
+              New to PopCon?{" "}
               <strong>
                 <Link to="/#0">Start with Kakao!</Link>
               </strong>
             </div>
           </form>
-          <div className="copy">© 2022 OTT</div>
+          <div className="copy">© 2022 PopCon</div>
         </aside>
       </div>
       {/*/login */}

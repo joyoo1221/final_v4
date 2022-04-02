@@ -5,19 +5,6 @@ const MyPage = () => {
   return (
     <div>
       <main>
-        {/*<div*/}
-        {/*  className="hero_single inner_pages author_page jarallax"*/}
-        {/*  data-jarallax*/}
-        {/*>*/}
-        {/*  <img className="jarallax-img" src="img/hero_img.jpeg" alt="" />*/}
-        {/*<div*/}
-        {/*  className="opacity-mask"*/}
-        {/*  data-opacity-mask="rgba(0, 0, 0, 0.4)"*/}
-        {/*></div>*/}
-        {/*<div className="wave hero"></div>*/}
-        {/*</div>*/}
-        {/*/hero_single*/}
-
         <div className="container margin_30_40">
           <div className="row">
             <div className="col-lg-12 ps-lg-5">
@@ -47,11 +34,6 @@ const MyPage = () => {
                 </div>
                 <h1>user_id</h1>
                 <ul>
-                  {/*<li>*/}
-                  {/*  <Link to="/editProfile" className="active">*/}
-                  {/*    <i className="bi bi-person"></i>Edit profile*/}
-                  {/*  </Link>*/}
-                  {/*</li>*/}
                   <li>
                     <Link to="/myPage">
                       <i className="bi bi-gear"></i>Email address
