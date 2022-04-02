@@ -5,17 +5,17 @@ const EditProfile = () => {
   return (
     <div>
       <main>
-        <div
-          className="hero_single inner_pages author_page jarallax"
-          data-jarallax
-        >
-          <img className="jarallax-img" src="img/hero_general.jpg" alt="" />
-          <div
-            className="opacity-mask"
-            data-opacity-mask="rgba(0, 0, 0, 0.4)"
-          ></div>
-          {/*<div className="wave hero"></div>*/}
-        </div>
+        {/*<div*/}
+        {/*  className="hero_single inner_pages author_page jarallax"*/}
+        {/*  data-jarallax*/}
+        {/*>*/}
+        {/*  <img className="jarallax-img" src="img/hero_general.jpg" alt="" />*/}
+        {/*  <div*/}
+        {/*    className="opacity-mask"*/}
+        {/*    data-opacity-mask="rgba(0, 0, 0, 0.4)"*/}
+        {/*  ></div>*/}
+        {/*  /!*<div className="wave hero"></div>*!/*/}
+        {/*</div>*/}
         {/*/hero_single*/}
 
         <div className="container margin_30_40">

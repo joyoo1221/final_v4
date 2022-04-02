@@ -5,17 +5,17 @@ const MyPage = () => {
   return (
     <div>
       <main>
-        <div
-          className="hero_single inner_pages author_page jarallax"
-          data-jarallax
-        >
-          <img className="jarallax-img" src="img/hero_img.jpeg" alt="" />
-          <div
-            className="opacity-mask"
-            data-opacity-mask="rgba(0, 0, 0, 0.4)"
-          ></div>
-          {/*<div className="wave hero"></div>*/}
-        </div>
+        {/*<div*/}
+        {/*  className="hero_single inner_pages author_page jarallax"*/}
+        {/*  data-jarallax*/}
+        {/*>*/}
+        {/*  <img className="jarallax-img" src="img/hero_img.jpeg" alt="" />*/}
+        {/*<div*/}
+        {/*  className="opacity-mask"*/}
+        {/*  data-opacity-mask="rgba(0, 0, 0, 0.4)"*/}
+        {/*></div>*/}
+        {/*<div className="wave hero"></div>*/}
+        {/*</div>*/}
         {/*/hero_single*/}
 
         <div className="container margin_30_40">
@@ -27,8 +27,8 @@ const MyPage = () => {
                 </span>
                 <h2>My Page</h2>
               </div>
-              {/*/row*/}
             </div>
+
             <div className="col-lg-6">
               <div className="main_profile edit_section">
                 <div className="author">

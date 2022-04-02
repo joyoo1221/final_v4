@@ -9,13 +9,15 @@ import MainPage from "../routes/MainPage";
 import RecoPage from "../routes/RecoPage";
 import LikePage from "../routes/LikePage";
 import TestPage from "../routes/TestPage";
+import CoverPage from "../routes/CoverPage";
 
 const AppRouter = () => {
   return (
     <Router>
       <Header></Header>
       <Routes>
-        <Route path="/" element={<TestPage />}></Route>
+        <Route path="/" element={<CoverPage />}></Route>
+        <Route path="/coverPage" element={<CoverPage />}></Route>
         <Route path="/testPage" element={<TestPage />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/mainPage" element={<MainPage />}></Route>
